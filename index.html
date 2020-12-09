@@ -12,15 +12,23 @@
 
   <title>Hello, world!</title>
   <style type="text/css">
-  /* .carousel-item img { 
+    .nav-pills .nav-link {
+      border-radius: 0;
+    }
+
+    .btn {
+      border-radius: 0;
+    }
+
+    /* .carousel-item img { 
     height: 100vh;
   } */
 
-  .nav-item {
+    /* .nav-item {
     border: 1px solid lightgray;
-  }
+  } */
 
-  /* @media (min-width: 576px) {
+    /* @media (min-width: 576px) {
     .carousel-item img {
       height: inherit;
     }
@@ -30,7 +38,7 @@
 
 <body>
 
-  <div id="carouselExampleCaptions" class="carousel slide d-none d-md-block" data-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -72,22 +80,38 @@
   <nav>
     <ul class="nav nav-pills nav-fill">
       <li class="nav-item">
-        <a class="nav-link" href="#">PRODUCTS</a>
+        <a class="nav-link btn btn-primary" href="#">PRODUCTS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">LEARN</a>
+        <a class="nav-link btn btn-secondary" href="#">LEARN</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">HELP</a>
+        <a class="nav-link btn btn-success" href="#">HELP</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">JOBS</a>
+        <a class="nav-link btn btn-danger" href="#">JOBS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">PERCIPIO</a>
+        <a class="nav-link btn btn-info" href="#">PERCIPIO</a>
       </li>
     </ul>
   </nav>
+  <!-- 
+  <div class="btn-toolbar">
+    <div class="btn-group d-flex">
+      
+        <a class="flex-fill btn btn-primary" href="#">PRODUCTS</a>
+      
+        <a class="flex-fill btn btn-secondary" href="#">LEARN</a>
+      
+        <a class="flex-fill btn btn-success" href="#">HELP</a>
+      
+        <a class="flex-fill btn btn-danger" href="#">JOBS</a>
+      
+        <a class="flex-fill btn btn-info" href="#">PERCIPIO</a>
+      
+    </div>
+  </div> -->
 
   <!-- Optional JavaScript; choose one of the two! -->
 
